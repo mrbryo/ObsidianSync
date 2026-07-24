@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
   <Name>Obsidian Sync</Name>
-  <Repository>mrbryo/ObsidianSync</Repository>
+  <Repository>apache/couchdb:latest</Repository>
   <Registry>docker.io</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
