@@ -1,4 +1,4 @@
-# Obsidian Sync
+# CouchDB for Obsidian Sync
 Create an Unraid compatible Docker image for backing up Obsidian locally.
 
 ## Credit
