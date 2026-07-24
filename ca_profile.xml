@@ -1,0 +1,27 @@
+<CommunityApplications>
+  <!-- Required profile -->
+  <Profile>
+    ## Obsidian Sync
+    CouchDB Setup for backing up your Obsidian notes. Application [Obsidian](https://obsidian.md/) is a fancy note taking application. This Unraid application lets you backup your local data to your Unraid server but also you can sync to other devices.
+  </Profile>
+  <!-- Optional icon -->
+  <Icon>https://raw.githubusercontent.com/mrbryo/ObsidianSync/main/obsidian-sync.svg</Icon>
+  <!-- Optional web page -->
+  <WebPage>https://github.com/mrbryo/ObsidianSync/wiki</WebPage>
+  <!-- Optional support and donation links -->
+  <!-- Forum>https://forums.unraid.net/topic/YOUR_SUPPORT_TOPIC</Forum -->
+  <!-- Optional Discord link -->
+  <!-- Discord>https://discord.gg/YOUR_INVITE_CODE</Discord -->
+  <!-- Optional donation link -->
+  <DonateLink>https://buymeacoffee.com/mrbryo</DonateLink>
+  <!-- Optional donation text -->
+  <DonateText>Support this Author</DonateText>
+  <!-- Optional photos -->
+  <!-- TODO: Create a photo! -->
+  <!-- Photo>URL to any photos</Photo -->
+  <!-- You can add multiple photos by adding multiple <Photo> tags -->
+  <!-- Optional videos -->
+  <!-- TODO: Create a video tutorial! -->
+  <!-- Video>URL to any video.  Youtube URLs are recommended</Video -->
+  <!-- You can add multiple videos by adding multiple <Video> tags -->
+</CommunityApplications>

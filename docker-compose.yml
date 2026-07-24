@@ -3,8 +3,8 @@ services:
     image: couchdb:latest
     container_name: obsidian-sync
     environment:
-      - COUCHDB_USER=admin_user
-      - COUCHDB_PASSWORD=admin_password
+      - COUCHDB_USER=${COUCHDB_USER:-admin_user}
+      - COUCHDB_PASSWORD=${COUCHDB_PASSWORD:-admin_password}
     volumes:
       - ./data:/opt/couchdb/data
       - ./config/local.ini:/opt/couchdb/etc/local.ini
