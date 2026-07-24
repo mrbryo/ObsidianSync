@@ -1,6 +1,6 @@
 services:
   couchdb:
-    image: couchdb:latest
+    build: .
     container_name: obsidian-sync
     environment:
       - COUCHDB_USER=${COUCHDB_USER:-admin_user}
