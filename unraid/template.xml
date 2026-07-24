@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-  <Name>Obsidian Sync</Name>
+  <Name>CouchDB for Obsidian Sync</Name>
   <Repository>apache/couchdb:latest</Repository>
   <Registry>docker.io</Registry>
   <Network>bridge</Network>
