@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
-  <Name>ObsidianSync</Name>
+  <Name>Obsidian Sync</Name>
   <Repository>mrbryo/ObsidianSync</Repository>
   <Registry>docker.io</Registry>
   <Network>bridge</Network>
@@ -10,13 +10,14 @@
   <Category>Productivity</Category>
   <WebUI>http://[IP]:[PORT:5984]/_utils/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrbryo/ObsidianSync/main/unraid/template.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/your-username/ObsidianSync/main/unraid/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/mrbryo/ObsidianSync/main/unraid/obsidian-sync.png</Icon>
   <Image>couchdb:latest</Image>
   <Description>Sync Server for Obsidian Vaults</Description>
   
   <Environment>
-    <Variable Name="COUCHDB_USER" Value="admin_user" Description="CouchDB Admin Username"/>
-    <Variable Name="COUCHDB_PASSWORD" Value="admin_password" Description="CouchDB Admin Password"/>
+    <Variable Name="COUCHDB_USER" Value="admin" Description="CouchDB Admin Username"/>
+    <Variable Name="COUCHDB_PASSWORD" Value="ObsidianRules!" Description="CouchDB Admin Password"/>
+    <Variable Name="COUCHDB_PERUSER" Value="true" Description="True enables the DB per User feature; false disables it."/>
   </Environment>
   
   <Ports>
