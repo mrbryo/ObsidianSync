@@ -1,7 +1,7 @@
 <CommunityApplications>
   <!-- Required profile -->
   <Profile>
-    ## Obsidian Sync
+    ## CouchDB for Obsidian Sync
     CouchDB Setup for backing up your Obsidian notes. Application [Obsidian](https://obsidian.md/) is a fancy note taking application. This Unraid application lets you backup your local data to your Unraid server but also you can sync to other devices.
   </Profile>
   <!-- Optional icon -->
